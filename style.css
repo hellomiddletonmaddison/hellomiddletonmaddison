@@ -1,10 +1,10 @@
 /* =========================================================
    Maddison Middleton — Book Marketing Specialist
-   Data-First, Long-Form Design System
+   New York, USA | Data-First, Long-Form Design System
    ========================================================= */
 
 :root {
-  --bg-main: #FBF9F4; /* Parchment/Paper tone */
+  --bg-main: #FBF9F4; /* Paper / Parchment tone */
   --bg-subtle: #EFEAE0; 
   --bg-card: #ffffff;
   --bg-dark: #1B222C; /* Deep ink slate */
@@ -20,16 +20,19 @@
   --oxblood-light: #f9ecee;
   --oxblood-border: #e8b8bc;
 
+  --accent-green: #047857;
+  --accent-green-bg: #d1fae5;
+
   --border: rgba(27, 34, 44, 0.14);
   --border-light: rgba(251, 249, 244, 0.2);
   --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.06);
   --shadow-md: 0 4px 12px -1px rgb(0 0 0 / 0.08);
   --shadow-lg: 0 12px 24px -4px rgb(0 0 0 / 0.12);
 
-  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
   --font-sans: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   
-  --max-width: 1240px;
+  --max-width: 1280px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
@@ -56,13 +59,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
-h1 { font-size: clamp(2.4rem, 4.5vw, 3.8rem); letter-spacing: -0.02em; }
-h2 { font-size: clamp(1.8rem, 3.2vw, 2.6rem); letter-spacing: -0.01em; }
-h3 { font-size: 1.45rem; }
-h4 { font-size: 1.15rem; }
+h1 { font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: -0.03em; }
+h2 { font-size: clamp(1.9rem, 3.5vw, 2.75rem); letter-spacing: -0.02em; }
+h3 { font-size: 1.5rem; letter-spacing: -0.01em; }
+h4 { font-size: 1.2rem; }
 
-p { margin-bottom: 1.5rem; max-width: 75ch; }
-p.lead { font-size: 1.2rem; color: var(--text-muted); font-weight: 400; line-height: 1.65; }
+p { margin-bottom: 1.5rem; max-width: 78ch; }
+p.lead { font-size: 1.25rem; color: var(--text-muted); font-weight: 400; line-height: 1.7; }
 
 a { color: var(--oxblood); text-decoration: none; transition: var(--transition); }
 a:hover { color: var(--oxblood-hover); }
@@ -134,7 +137,7 @@ a:hover { color: var(--oxblood-hover); }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(251, 249, 244, 0.96);
+  background: rgba(251, 249, 244, 0.97);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -154,8 +157,8 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 .brand-mark {
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid var(--border);
@@ -170,7 +173,7 @@ a:hover { color: var(--oxblood-hover); }
 
 .brand-name {
   font-family: var(--font-display);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-dark);
   display: block;
@@ -190,7 +193,7 @@ a:hover { color: var(--oxblood-hover); }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 1.75rem;
+  gap: 1.85rem;
   list-style: none;
 }
 
@@ -216,8 +219,8 @@ a:hover { color: var(--oxblood-hover); }
 }
 
 /* --- Layout Sections --- */
-.section { padding: 6rem 0; }
-.section-lg { padding: 8rem 0; }
+.section { padding: 6.5rem 0; }
+.section-lg { padding: 8.5rem 0; }
 .bg-subtle { background-color: var(--bg-subtle); }
 .bg-dark { background-color: var(--bg-dark); color: var(--text-light); }
 .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4 { color: white; }
@@ -274,14 +277,14 @@ a:hover { color: var(--oxblood-hover); }
 
 /* --- Hero Layout --- */
 .hero {
-  padding: 6.5rem 0 5.5rem;
+  padding: 7rem 0 5.5rem;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg-main) 100%);
   border-bottom: 1px solid var(--border);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.25fr 0.75fr;
   gap: 4rem;
   align-items: center;
 }
@@ -292,7 +295,7 @@ a:hover { color: var(--oxblood-hover); }
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--border);
   aspect-ratio: 4/5;
-  max-width: 420px;
+  max-width: 440px;
   margin: 0 auto;
 }
 
@@ -491,7 +494,7 @@ a:hover { color: var(--oxblood-hover); }
 /* --- Footer --- */
 .site-footer {
   background: var(--bg-dark);
-  color: rgba(251, 249, 244, 0.7);
+  color: rgba(251, 249, 244, 0.75);
   padding: 5.5rem 0 3rem;
   border-top: 1px solid var(--border-light);
 }
