@@ -1,130 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>How It Works | Maddison Middleton</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How It Works | Maddison Middleton</title>
+  <meta name="description" content="A clear, fully documented 5-step process communicated entirely by email. No calls, no meetings, complete paper trail from start to finish.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="scroll-progress"></div>
 
-<header class="site-header">
-  <nav class="nav">
-    <a href="index.html" class="brand">
-      <span class="brand-mark"><img src="my picture.jpg" alt="Portrait of Maddison Middleton" /></span>
-      <span>
-        <span class="brand-name">Maddison Middleton</span>
-        <span class="brand-role">Book Marketing Specialist</span>
-      </span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="how-it-works.html" aria-current="page">How It Works</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-    </ul>
-    <a href="contact.html" class="nav-cta">Email Me</a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-</header>
-
-<main>
-
-  <section class="page-hero">
-    <div class="container">
-      <p class="eyebrow hero-fade d1">How It Works</p>
-      <h1 class="hero-fade d2">A clear, fully documented process</h1>
-      <p class="lede hero-fade d3">Five steps, every one of them confirmed in writing.</p>
-    </div>
-  </section>
-
-  <section class="section-tight">
-    <div class="container steps">
-
-      <div class="step reveal">
-        <span class="step-number">01</span>
-        <div>
-          <h3>Send an email</h3>
-          <p>Reach out with a description of your book and the kind of support you are looking for. There are no forms to book a call and no scheduling required, simply a written message.</p>
-        </div>
-      </div>
-
-      <div class="step reveal">
-        <span class="step-number">02</span>
-        <div>
-          <h3>Written proposal</h3>
-          <p>You will receive a detailed, written proposal by email outlining the recommended approach, full scope of work, timeline, and cost. You can ask questions and request adjustments over email until the proposal reflects exactly what you need.</p>
-        </div>
-      </div>
-
-      <div class="step reveal">
-        <span class="step-number">03</span>
-        <div>
-          <h3>Project kickoff</h3>
-          <p>Once the proposal is approved, work begins. You will receive an initial project brief by email confirming everything that has been agreed, establishing a clear reference point from day one.</p>
-        </div>
-      </div>
-
-      <div class="step reveal">
-        <span class="step-number">04</span>
-        <div>
-          <h3>Regular written updates</h3>
-          <p>Throughout the project, you will receive progress updates, drafts, and performance summaries by email, on a schedule agreed upfront. Every important detail is communicated in writing, never verbally only.</p>
-        </div>
-      </div>
-
-      <div class="step reveal">
-        <span class="step-number">05</span>
-        <div>
-          <h3>Delivery and wrap up</h3>
-          <p>At the conclusion of the project, you will receive a final summary email covering everything delivered, along with professional recommendations for next steps.</p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="cta-band">
-    <div class="container reveal">
-      <h2>Start with a single email</h2>
-      <p class="lede">Tell me about your book and your goals. You will hear back with a clear, written next step.</p>
-      <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary">Email me</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <span class="footer-brand">Maddison Middleton</span>
-      <ul class="footer-links">
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img src="my picture.jpg" alt="Maddison Middleton" /></span>
+        <span>
+          <span class="brand-name">Maddison Middleton</span>
+          <span class="brand-title">Book Marketing Specialist</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="how-it-works.html" class="active">How It Works</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn">Email Me</a></li>
       </ul>
     </div>
-    <div class="footer-bottom">
-      <span>Copyright 2026 Maddison Middleton. All rights reserved.</span>
-      <a href="mailto:hello.middletonmaddison@gmail.com">hello.middletonmaddison@gmail.com</a>
-    </div>
-  </div>
-</footer>
+  </header>
 
-<script src="script.js"></script>
+  <!-- Page Header -->
+  <section class="section bg-subtle" style="padding: 5.5rem 0 4rem;">
+    <div class="container" style="max-width: 950px; text-align: center;">
+      <span class="badge">100% Written Process</span>
+      <h1>Five Steps, Every One Confirmed In Writing</h1>
+      <p class="lead">A documented workflow built around clarity, time-stamped decisions, and zero calendar friction.</p>
+    </div>
+  </section>
+
+  <!-- Process Steps -->
+  <section class="section">
+    <div class="container" style="max-width: 950px;">
+      
+      <div class="card" style="margin-bottom: 2.25rem;">
+        <span style="font-size: 1.5rem; font-weight: 800; color: var(--oxblood);">01</span>
+        <h3 style="margin: 0.5rem 0 0.85rem;">Send an Email</h3>
+        <p style="font-size: 1rem; color: var(--text-body);">Reach out with a description of your book, genre, release timeline, and the support you need. There are no consultation booking widgets or scheduling required—simply send a written message describing your goals.</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 2.25rem;">
+        <span style="font-size: 1.5rem; font-weight: 800; color: var(--oxblood);">02</span>
+        <h3 style="margin: 0.5rem 0 0.85rem;">Written Proposal & Scope</h3>
+        <p style="font-size: 1rem; color: var(--text-body);">You will receive a detailed written proposal outlining the recommended approach, full scope of work, timeline, and itemized cost. You can ask questions and request adjustments over email until the proposal reflects exactly what you need.</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 2.25rem;">
+        <span style="font-size: 1.5rem; font-weight: 800; color: var(--oxblood);">03</span>
+        <h3 style="margin: 0.5rem 0 0.85rem;">Project Kickoff Brief</h3>
+        <p style="font-size: 1rem; color: var(--text-body);">Once the proposal is approved, work begins. You receive an initial project kickoff brief by email confirming all deliverables and deadlines, establishing a clear reference point from day one.</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 2.25rem;">
+        <span style="font-size: 1.5rem; font-weight: 800; color: var(--oxblood);">04</span>
+        <h3 style="margin: 0.5rem 0 0.85rem;">Regular Written Updates</h3>
+        <p style="font-size: 1rem; color: var(--text-body);">Throughout the project, you receive structured progress updates, draft reviews, and performance summaries by email on an agreed schedule. Every important detail is recorded in writing.</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 2.25rem;">
+        <span style="font-size: 1.5rem; font-weight: 800; color: var(--oxblood);">05</span>
+        <h3 style="margin: 0.5rem 0 0.85rem;">Delivery & Wrap-Up Summary</h3>
+        <p style="font-size: 1rem; color: var(--text-body);">At the conclusion of the project, you receive a final summary email covering everything delivered, along with professional recommendations for your book's next steps.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section bg-dark">
+    <div class="container" style="text-align: center; max-width: 850px;">
+      <h2 style="color: white;">Start with a single email</h2>
+      <p class="lead" style="color: rgba(251, 249, 244, 0.8); margin-top: 1rem;">Tell me about your book and your goals. You will hear back with a clear, written next step.</p>
+      <div style="margin-top: 2.25rem;">
+        <a href="contact.html" class="btn btn-large">Email Me About Your Book →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Maddison Middleton</h3>
+          <p style="font-size: 0.9rem;">Book Marketing Specialist providing data-driven market positioning and a fully documented, 100% email-based process.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Launch Campaigns</a></li>
+            <li><a href="services.html">Metadata Optimization</a></li>
+            <li><a href="services.html">Advertising Management</a></li>
+            <li><a href="services.html">Media Outreach</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello.middletonmaddison@gmail.com">hello.middletonmaddison@gmail.com</a></li>
+            <li><a href="contact.html">Send Initial Email Form</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Maddison Middleton. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
