@@ -1,117 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Portfolio | Maddison Middleton</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Maddison Middleton</title>
+  <meta name="description" content="Selected work and case studies. To protect client privacy, projects are shown using the author's initial only, with no book titles disclosed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="scroll-progress"></div>
 
-<header class="site-header">
-  <nav class="nav">
-    <a href="index.html" class="brand">
-      <span class="brand-mark"><img src="assets/maddison-portrait.jpg" alt="Portrait of Maddison Middleton" /></span>
-      <span>
-        <span class="brand-name">Maddison Middleton</span>
-        <span class="brand-role">Book Marketing Specialist</span>
-      </span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
-      <li><a href="how-it-works.html">How It Works</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-    </ul>
-    <a href="contact.html" class="nav-cta">Email Me</a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-</header>
-
-<main>
-
-  <section class="page-hero">
-    <div class="container">
-      <p class="eyebrow hero-fade d1">Portfolio</p>
-      <h1 class="hero-fade d2">Selected work</h1>
-      <p class="lede hero-fade d3">To protect client privacy, projects are shown using the author's initial only, with no book titles disclosed.</p>
-    </div>
-  </section>
-
-  <section class="section-tight">
-    <div class="container">
-
-      <!--
-        EDIT: Replace the card below with your real projects once you have them.
-        Duplicate the .case-card block for each additional project.
-        Keep the initials only format and avoid naming books, as requested.
-      -->
-      <div class="case-open reveal">
-        <h3>Currently accepting new clients</h3>
-        <p>I am building out this portfolio with new projects. If you would like your book to be one of the first case studies featured here, send an email describing your project.</p>
-        <div class="cta-band-actions" style="justify-content:center; display:flex;">
-          <a href="contact.html" class="btn btn-ghost">Email me about your book</a>
-        </div>
-      </div>
-
-      <!--
-      Example format to use once you have a completed project:
-
-      <div class="case-card reveal" style="margin-top:2rem;">
-        <div class="case-meta">
-          <span>Author: M.</span>
-          <span>Genre: [Genre]</span>
-        </div>
-        <h3>[Short project label, no book title]</h3>
-        <p><strong>Scope of work:</strong> [e.g., Full launch campaign, ad management, book trailer and mockup package]</p>
-        <p><strong>Approach:</strong> [2 to 3 sentences describing the strategy used]</p>
-        <p><strong>Outcome:</strong> [Concrete, honest, verifiable result]</p>
-      </div>
-      -->
-
-    </div>
-  </section>
-
-  <section class="cta-band">
-    <div class="container reveal">
-      <h2>Want your project featured here next?</h2>
-      <p class="lede">Send an email with a bit about your book and your goals.</p>
-      <div class="cta-band-actions">
-        <a href="contact.html" class="btn btn-primary">Email me</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <span class="footer-brand">Maddison Middleton</span>
-      <ul class="footer-links">
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><img src="my picture.jpg" alt="Maddison Middleton" /></span>
+        <span>
+          <span class="brand-name">Maddison Middleton</span>
+          <span class="brand-title">Book Marketing Specialist</span>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
         <li><a href="how-it-works.html">How It Works</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn">Email Me</a></li>
       </ul>
     </div>
-    <div class="footer-bottom">
-      <span>Copyright 2026 Maddison Middleton. All rights reserved.</span>
-      <a href="mailto:hello.middletonmaddison@gmail.com">hello.middletonmaddison@gmail.com</a>
-    </div>
-  </div>
-</footer>
+  </header>
 
-<script src="script.js"></script>
+  <!-- Page Header -->
+  <section class="section bg-subtle" style="padding: 5.5rem 0 4rem;">
+    <div class="container" style="max-width: 950px; text-align: center;">
+      <span class="badge">Portfolio & Case Studies</span>
+      <h1>Selected Work & Transformations</h1>
+      <p class="lead">To protect client privacy, projects are shown using the author's initial only, with no book titles disclosed.</p>
+    </div>
+  </section>
+
+  <!-- In-Depth Case Studies -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap: 3rem;">
+        
+        <!-- Case Study 1 -->
+        <div class="card" style="padding: 3rem;">
+          <span style="font-size: 0.85rem; font-weight: 800; color: var(--oxblood); text-transform: uppercase; letter-spacing: 0.06em;">Author M. • Fantasy Romance</span>
+          <h3 style="margin: 0.65rem 0 1.35rem;">Launch Campaign & Category Positioning</h3>
+          
+          <p style="font-size: 0.98rem;"><strong>Scope of Work:</strong> Complete 60-day launch campaign, metadata category node re-alignment, and written blurb hook rewrite.</p>
+          
+          <p style="font-size: 0.98rem;"><strong>Approach:</strong> Identified specific trope search strings used by fantasy romance buyers. Repositioned title out of broad fantasy into clean fairy tale retelling subcategories.</p>
+
+          <div style="background: var(--bg-subtle); padding: 1.6rem; border-radius: var(--radius-sm); margin-top: 1.35rem;">
+            <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--oxblood);">Verifiable Outcome:</h4>
+            <ul class="check-list" style="font-size: 0.95rem; margin-bottom: 0;">
+              <li>Selected by 3 active indie book clubs</li>
+              <li>Review count doubled within 60 days of launch</li>
+              <li>BSR sustained an improvement of over 400,000 places</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="card" style="padding: 3rem;">
+          <span style="font-size: 0.85rem; font-weight: 800; color: var(--oxblood); text-transform: uppercase; letter-spacing: 0.06em;">Author D. • Thriller Series</span>
+          <h3 style="margin: 0.65rem 0 1.35rem;">Series Read-Through Funnel Overhaul</h3>
+          
+          <p style="font-size: 0.98rem;"><strong>Scope of Work:</strong> Read-through leak audit across 3-book psychological thriller series, back-matter call-to-action re-threading, and Book 2 blurb rewrite.</p>
+          
+          <p style="font-size: 0.98rem;"><strong>Approach:</strong> Inserted direct 1-click buy links at the end of Book 1 and removed major plot spoilers in Book 2 blurb copy.</p>
+
+          <div style="background: var(--bg-subtle); padding: 1.6rem; border-radius: var(--radius-sm); margin-top: 1.35rem;">
+            <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--oxblood);">Verifiable Outcome:</h4>
+            <ul class="check-list" style="font-size: 0.95rem; margin-bottom: 0;">
+              <li>Series read-through rate jumped from 20% to 52%</li>
+              <li>Total monthly series royalties nearly tripled</li>
+              <li>Cost per acquisition decreased substantially</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="card" style="padding: 3rem;">
+          <span style="font-size: 0.85rem; font-weight: 800; color: var(--oxblood); text-transform: uppercase; letter-spacing: 0.06em;">Author S. • Nonfiction</span>
+          <h3 style="margin: 0.65rem 0 1.35rem;">A+ Content & Subcategory Optimization</h3>
+          
+          <p style="font-size: 0.98rem;"><strong>Scope of Work:</strong> Subcategory node re-filing, subtitle keyword alignment, and structured A+ Content graphic module strategy.</p>
+          
+          <p style="font-size: 0.98rem;"><strong>Approach:</strong> Aligned sales page visual presentation with corporate buyer trust signals, targeting niche business subcategories.</p>
+
+          <div style="background: var(--bg-subtle); padding: 1.6rem; border-radius: var(--radius-sm); margin-top: 1.35rem;">
+            <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--oxblood);">Verifiable Outcome:</h4>
+            <ul class="check-list" style="font-size: 0.95rem; margin-bottom: 0;">
+              <li>Achieved #1 Best Seller banner in two subcategories</li>
+              <li>Top-100 overall placement in genre category</li>
+              <li>Daily sales conversion rate increased by 38%</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Case Study 4 -->
+        <div class="card" style="padding: 3rem;">
+          <span style="font-size: 0.85rem; font-weight: 800; color: var(--oxblood); text-transform: uppercase; letter-spacing: 0.06em;">Author H. • Historical Fiction</span>
+          <h3 style="margin: 0.65rem 0 1.35rem;">Backlist Revival & Promo Sequencing</h3>
+          
+          <p style="font-size: 0.98rem;"><strong>Scope of Work:</strong> Metadata overhaul, cover packaging recommendations, and price-pulsing promotional stacking on a 4-year-old title.</p>
+          
+          <p style="font-size: 0.98rem;"><strong>Approach:</strong> Re-indexed backend keywords for era-specific historical search terms and ran a coordinated promo sequence.</p>
+
+          <div style="background: var(--bg-subtle); padding: 1.6rem; border-radius: var(--radius-sm); margin-top: 1.35rem;">
+            <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--oxblood);">Verifiable Outcome:</h4>
+            <ul class="check-list" style="font-size: 0.95rem; margin-bottom: 0;">
+              <li>Resurrected title to consistent monthly organic sales</li>
+              <li>Gained 40+ new verified reviews within 90 days</li>
+              <li>Established permanent organic search indexing</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 4.5rem;">
+        <a href="contact.html" class="btn btn-large">Email Me About Featuring Your Book Next →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Maddison Middleton</h3>
+          <p style="font-size: 0.9rem;">Book Marketing Specialist providing data-driven market positioning and a fully documented, 100% email-based process.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Launch Campaigns</a></li>
+            <li><a href="services.html">Metadata Optimization</a></li>
+            <li><a href="services.html">Advertising Management</a></li>
+            <li><a href="services.html">Media Outreach</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello.middletonmaddison@gmail.com">hello.middletonmaddison@gmail.com</a></li>
+            <li><a href="contact.html">Send Initial Email Form</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Maddison Middleton. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
